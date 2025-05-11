@@ -1,0 +1,39 @@
+/* Estilos generales para todo el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif; /* Fuentes para las letras */
+    background-color: #f4f4f4;      /* Color de fondo */
+    text-align: center;             /* Centra todo el contenido */
+    padding: 40px;                  /* Espaciado interno */
+    color: #333;                    /* Color de texto */
+}
+
+/* Estilo para el título principal */
+h1 {
+    color: #2c3e50; /* Color */
+}
+
+/* Estilo para los párrafos */
+p {
+    font-size: 18px;      /* Tamaño de letra */
+    margin-bottom: 20px;  /* Separación entre párrafos */
+}
+
+/* Estilo para la imagen */
+img {
+    width: 300px;                             /* Ancho fijo de la imagen */
+    border-radius: 10px;                      /* Bordes redondeados */
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.2);   /* Sombra para resaltar */
+    margin: 20px 0;                           /* Espaciado arriba y abajo */
+}
+
+/* Estilo para los enlaces */
+a {
+    color: #2d89ef;          /* Azul brillante */
+    text-decoration: none;   /* Sin subrayado por defecto */
+    font-weight: bold;       /* Negrita */
+}
+
+/* Efecto cuando el mouse pasa sobre el enlace */
+a:hover {
+    text-decoration: underline; /* Subrayado al pasar el cursor */
+}
